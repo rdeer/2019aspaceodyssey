@@ -1,0 +1,297 @@
+html{
+	font-size: 62.5%;
+	background-color: black;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	position: relative;
+	height: 95vh;
+	font-family: 'Crimson Text', serif;
+	background-image: 
+	url(nicerspace.gif);
+	background-size: cover;
+	background-position: top;
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 49% 84%, 0% 100%);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 49% 84%, 0% 100%);
+}
+
+
+
+nav {
+	float: middle;
+}
+ 
+nav ul {
+	margin-left: 47rem;
+	margin-right: 53rem;
+	padding-top: 1rem;
+	top: -9rem;
+	color: white;
+	position: relative;
+	text-align: center;
+	list-style: none;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.75rem;
+}
+
+.one:hover{
+	transform: scale(1.5);
+}
+
+.two:hover{
+	transform: scale(1.5);
+}
+	
+.three:hover{
+	transform: scale(1.5);
+}
+
+.four:hover{
+	transform: scale(1.5);
+}
+
+.navbar_link {
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.navbar_link:hover {
+  background: black;
+}
+
+.title{
+	position: relative;
+	top: 25rem;
+	text-align: center;
+	font-size: 8rem;
+	color: white;
+}
+
+.logo{
+	position: relative;
+	size: 3rem;
+	margin-left: .25rem;
+	padding-top: 4rem;
+	top: -41.75rem;
+	width: 6rem;
+	background-position: top;
+}
+
+.logo:hover{
+	transform: scale(1.5);
+}
+
+.parent{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	height: 60vh;
+	align-items: center;
+	font-family: 'Crimson Text', serif;
+}
+
+.flex_column{
+
+}
+
+.text2{
+	align-self: flex-start;
+	position: absolute;
+	color: white;
+	font-size: 2rem;
+}
+
+.text2:hover{
+	transform: scale(1.10);
+}
+
+.text{
+	color: white;
+	font-size: 2rem;
+	position: absolute;
+}
+
+.text:hover{
+	transform: scale(1.10);
+}
+
+.text1{
+	align-self: flex-end;
+	position: absolute;
+	color: white;
+	font-size: 2rem;
+}
+
+.text1:hover{
+	transform: scale(1.10);
+}
+
+.reviewpic{
+	border-radius: 50%;
+}
+
+.prices{
+	margin-top: 20rem;
+	height: 95vh;
+	font-family: 'Crimson Text', serif;
+}
+
+:root{
+--grid-width: 114rem;
+--gutter-vertical: .8rem;
+--gutter-horizontal: 6rem;
+}
+
+.row{
+	max-width: 114rem;
+	margin: 8rem auto;
+}
+
+.row:not(:last-child){
+	margin-bottom: 8rem;
+}
+
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.col-1-of-3{
+	width: calc((100% - 12rem)/3);
+
+}
+
+[class^="col-"]{
+	float: left;
+}
+[class^="col-"]:not(:last-child){
+	margin-right: var(--gutter-horizontal);
+}
+
+.card{
+	perspective: 150rem;
+	-moz-perspective: 150rem;
+	position: relative;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.btn{
+	background-color: white;
+}
+
+.card-side{
+	height: 500px;
+	width: 100%;
+	font-size: 15px;
+	color: white;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform:  .3s ease;
+}
+
+.front1{
+	position: absolute;
+	background-image: url(spaceandspaceandspace.jpg);	
+	text-align: center;
+	font-size: 6rem;
+}
+
+.front2{
+	position: absolute;
+	background-image: url(yuh.jpg);
+	text-align: center;
+	font-size: 6rem;
+}
+
+.front3{
+	position: absolute;
+	background-image: url(awholelottaspace.jpg);
+	text-align: center;
+	font-size: 6rem;
+}
+
+.card-side-back{
+	transform: rotateY(-180deg);
+}
+
+.back{
+	position: absolute;
+	background-color: black;
+	font-size: 4rem;
+	text-align: center;
+
+}
+
+.back1{
+	text-align: center;
+	position: absolute;
+	font-size: 2rem;
+	padding-top: 110%;
+
+}
+
+.card:hover .card-side-front{
+	transform: rotateY(-180deg);
+}
+
+.card:hover .card-side-back{
+	transform: rotateY(-360deg);
+}
+
+.yikes{
+	height: 95vh;
+	position: relative;
+}
+
+.gallery {
+	margin: 50px auto;
+	border: 1px solid #ccc;
+	float: middle;
+	width: 400px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+.popup:target            
+
+.popup-close{
+	color: #777;
+	position: absolute;
+	top: 2.5rem;
+	right: 2.5rem;
+	display: inline-block;
+}
+
+.popup-close:hover{
+	color: black;
+}
+
+
