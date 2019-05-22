@@ -305,7 +305,7 @@ nav a {
 	padding: 3rem;
 	background-image: url(space1.gif);
 	background-size: cover;
-	border-radius: 50%;
+	border-radius: 20%;
 	width: 85%;
 	height: auto;
 	position: relative;
@@ -316,7 +316,7 @@ nav a {
 	padding: 3rem;
 	background-image: url(space1.gif);
 	background-size: cover;
-	border-radius: 50%;
+	border-radius: 20%;
 	width: 85%;
 	height: auto;
 	position: relative;
