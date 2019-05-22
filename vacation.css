@@ -86,10 +86,6 @@ nav a {
 	background-position: top;
 }
 
-.logo:hover{
-	transform: scale(1.5);
-}
-
 .parent{
 	margin-top: -15rem;
 	display: flex;
