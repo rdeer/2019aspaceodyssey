@@ -332,12 +332,12 @@ nav a {
 .popup-content {
 	margin: 3rem auto;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	color: white;
 	left: 50%;
 	padding: 1rem;
-    border-radius: 2rem;
-    font-family: 'Crimson Text', serif;
+    	border-radius: 2rem;
+    	font-family: 'Crimson Text', serif;
 }          
 
 .popup-close{
